@@ -1,0 +1,90 @@
+.App-header a {
+  vertical-align: middle;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+#marvel {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#detailImage {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+#loadingImage {
+  width: 300px;
+  height: 300px;
+}
+
+#hero {
+  color: black !important;
+  font-size: 30px
+}
+
+span  {
+  color:  white
+}
+
+.card-text {
+  margin-top: 5px;
+  color: black;
+}
+
+.card-body {
+  background: white;
+}
+
+button {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background: #ED1A23 !important
+}
+
+.App-header {
+  background-color: #ED1A23;
+  height: 60px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#detailHeroo {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.row {
+  justify-content: center
+}
+
+#detailed {
+  justify-content: flex-start !important;
+  text-align: center
+}
